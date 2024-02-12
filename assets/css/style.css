@@ -11,10 +11,28 @@
 
 /* ====== Body ===== */
 
-
+body{
+    background: url("../img/1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px;
+}
 /* ====== Form container ===== */
 
-
+.form-container{
+    display: flex;
+    width: 1001px;
+    height: 600px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+}
 /* ====== First Column ===== */
 
 
